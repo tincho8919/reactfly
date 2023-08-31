@@ -19,7 +19,7 @@ import PRODUCTS from "./componentes/PRODUCTS";
 
         <Routes>
 
-        <Route exact path="/" component={HOME} />
+        <Route exact path="/home" component={HOME} />
         <Route path='/home' element={ <HOME /> }></Route>
         <Route path='/flights' element={ <FLIGHTS /> }></Route>
         <Route path='/hotels' element={ <HOTELS /> }></Route>
