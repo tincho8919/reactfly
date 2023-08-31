@@ -18,6 +18,8 @@ import PRODUCTS from "./componentes/PRODUCTS";
         <NAVBAR />
 
         <Routes>
+
+        <Route exact path="/home" component={Home} />
         <Route path='/home' element={ <HOME /> }></Route>
         <Route path='/flights' element={ <FLIGHTS /> }></Route>
         <Route path='/hotels' element={ <HOTELS /> }></Route>
