@@ -19,7 +19,7 @@ import ERROR from "./componentes/ERROR";
         <NAVBAR />
 
         <Routes>
-        <Route exact path="/" component={HOME} />
+        <Route index element={ <HOME /> }></Route>
         <Route path='/home' element={ <HOME /> }></Route>
         <Route path='/flights' element={ <FLIGHTS /> }></Route>
         <Route path='/hotels' element={ <HOTELS /> }></Route>
