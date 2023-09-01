@@ -8,6 +8,7 @@ import HOTELS from './componentes/HOTELS';
 import LOGIN from './componentes/LOGIN';
 import FOOTER from "./componentes/FOOTER";
 import PRODUCTS from "./componentes/PRODUCTS";
+import ERROR from "./componentes/ERROR";
 
 
 
@@ -18,13 +19,13 @@ import PRODUCTS from "./componentes/PRODUCTS";
         <NAVBAR />
 
         <Routes>
-
         <Route exact path="/" component={HOME} />
         <Route path='/home' element={ <HOME /> }></Route>
         <Route path='/flights' element={ <FLIGHTS /> }></Route>
         <Route path='/hotels' element={ <HOTELS /> }></Route>
         <Route path='/login' element={ <LOGIN  /> }></Route>
         <Route path='/products' element={ <PRODUCTS  /> }></Route>
+        <Route path='/error' element={ <ERROR /> }></Route>
         </Routes>
     
         <FOOTER />

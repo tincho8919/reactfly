@@ -22,6 +22,7 @@ const Login = () => {
         } else {
             setShowAlert(false);
             alert('DATOS INCORRECTOS');
+            navigate('/error')
         }
     };
 
